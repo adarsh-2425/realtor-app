@@ -33,7 +33,12 @@ export class Home {
     @Prop()
     propertyType: PropertyType
 
-    @Prop()
+    @Prop({
+        type: {
+            id: String,
+            url: String
+        }
+    })
     image: {
         id: string;
         url: string;
