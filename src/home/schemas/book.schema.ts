@@ -40,7 +40,7 @@ export class Home {
     }
 }
 
-export enum PropertyType {
+enum PropertyType {
     RESIDENTIAL = "residential",
     CONDO = "condo"
 }
